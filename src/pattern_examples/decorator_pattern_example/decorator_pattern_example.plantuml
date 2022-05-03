@@ -5,6 +5,7 @@ title __DECORATOR_PATTERN_EXAMPLE's Class Diagram__\n
   namespace pattern_examples.decorator_pattern_example {
     abstract class pattern_examples.decorator_pattern_example.Decorator {
         + Decorator()
+        + print()
     }
   }
   
