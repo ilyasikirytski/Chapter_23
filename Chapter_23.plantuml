@@ -98,6 +98,36 @@ title __CHAPTER_23's Class Diagram__\n
   }
   
 
+  namespace pattern_examples.facade_pattern_example {
+    class pattern_examples.facade_pattern_example.Computer {
+    }
+  }
+  
+
+  namespace pattern_examples.facade_pattern_example {
+    class pattern_examples.facade_pattern_example.DVDRom {
+    }
+  }
+  
+
+  namespace pattern_examples.facade_pattern_example {
+    class pattern_examples.facade_pattern_example.HDD {
+    }
+  }
+  
+
+  namespace pattern_examples.facade_pattern_example {
+    class pattern_examples.facade_pattern_example.Main {
+    }
+  }
+  
+
+  namespace pattern_examples.facade_pattern_example {
+    class pattern_examples.facade_pattern_example.Power {
+    }
+  }
+  
+
   pattern_examples.bridge_pattern_example.Car o-- pattern_examples.bridge_pattern_example.Make : make
   pattern_examples.bridge_pattern_example.Coupe -up-|> pattern_examples.bridge_pattern_example.Car
   pattern_examples.bridge_pattern_example.Hatchback -up-|> pattern_examples.bridge_pattern_example.Car
@@ -111,6 +141,9 @@ title __CHAPTER_23's Class Diagram__\n
   pattern_examples.decorator_pattern_example.Printer .up.|> pattern_examples.decorator_pattern_example.PrinterInterface
   pattern_examples.decorator_pattern_example.QuotesDecorator -up-|> pattern_examples.decorator_pattern_example.Decorator
   pattern_examples.decorator_pattern_example.RightBracketDecorator -up-|> pattern_examples.decorator_pattern_example.Decorator
+  pattern_examples.facade_pattern_example.Computer o-- pattern_examples.facade_pattern_example.DVDRom : dvdRom
+  pattern_examples.facade_pattern_example.Computer o-- pattern_examples.facade_pattern_example.HDD : hdd
+  pattern_examples.facade_pattern_example.Computer o-- pattern_examples.facade_pattern_example.Power : power
 
 
 right footer
