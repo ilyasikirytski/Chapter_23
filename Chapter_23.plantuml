@@ -2,6 +2,36 @@
 
 title __CHAPTER_23's Class Diagram__\n
 
+  namespace pattern_examples.adapter_pattern_example {
+    class pattern_examples.adapter_pattern_example.Main {
+    }
+  }
+  
+
+  namespace pattern_examples.adapter_pattern_example {
+    class pattern_examples.adapter_pattern_example.RasterGraphics {
+    }
+  }
+  
+
+  namespace pattern_examples.adapter_pattern_example {
+    class pattern_examples.adapter_pattern_example.VectorAdapterFromRaster {
+    }
+  }
+  
+
+  namespace pattern_examples.adapter_pattern_example {
+    class pattern_examples.adapter_pattern_example.VectorAdapterFromRaster2 {
+    }
+  }
+  
+
+  namespace pattern_examples.adapter_pattern_example {
+    interface pattern_examples.adapter_pattern_example.VectroGraphicsInterface {
+    }
+  }
+  
+
   namespace pattern_examples.bridge_pattern_example {
     abstract class pattern_examples.bridge_pattern_example.Car {
     }
@@ -164,6 +194,10 @@ title __CHAPTER_23's Class Diagram__\n
   }
   
 
+  pattern_examples.adapter_pattern_example.VectorAdapterFromRaster .up.|> pattern_examples.adapter_pattern_example.VectroGraphicsInterface
+  pattern_examples.adapter_pattern_example.VectorAdapterFromRaster -up-|> pattern_examples.adapter_pattern_example.RasterGraphics
+  pattern_examples.adapter_pattern_example.VectorAdapterFromRaster2 .up.|> pattern_examples.adapter_pattern_example.VectroGraphicsInterface
+  pattern_examples.adapter_pattern_example.VectorAdapterFromRaster2 o-- pattern_examples.adapter_pattern_example.RasterGraphics : rasterGraphics
   pattern_examples.bridge_pattern_example.Car o-- pattern_examples.bridge_pattern_example.Make : make
   pattern_examples.bridge_pattern_example.Coupe -up-|> pattern_examples.bridge_pattern_example.Car
   pattern_examples.bridge_pattern_example.Hatchback -up-|> pattern_examples.bridge_pattern_example.Car
