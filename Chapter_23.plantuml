@@ -56,6 +56,42 @@ title __CHAPTER_23's Class Diagram__\n
   }
   
 
+  namespace pattern_examples.composite_pattern_example {
+    class pattern_examples.composite_pattern_example.Circle {
+    }
+  }
+  
+
+  namespace pattern_examples.composite_pattern_example {
+    class pattern_examples.composite_pattern_example.Composite {
+    }
+  }
+  
+
+  namespace pattern_examples.composite_pattern_example {
+    class pattern_examples.composite_pattern_example.Main {
+    }
+  }
+  
+
+  namespace pattern_examples.composite_pattern_example {
+    interface pattern_examples.composite_pattern_example.Shape {
+    }
+  }
+  
+
+  namespace pattern_examples.composite_pattern_example {
+    class pattern_examples.composite_pattern_example.Square {
+    }
+  }
+  
+
+  namespace pattern_examples.composite_pattern_example {
+    class pattern_examples.composite_pattern_example.Triangle {
+    }
+  }
+  
+
   namespace pattern_examples.decorator_pattern_example {
     abstract class pattern_examples.decorator_pattern_example.Decorator {
     }
@@ -135,6 +171,10 @@ title __CHAPTER_23's Class Diagram__\n
   pattern_examples.bridge_pattern_example.Mresedes .up.|> pattern_examples.bridge_pattern_example.Make
   pattern_examples.bridge_pattern_example.Sedan -up-|> pattern_examples.bridge_pattern_example.Car
   pattern_examples.bridge_pattern_example.Skoda .up.|> pattern_examples.bridge_pattern_example.Make
+  pattern_examples.composite_pattern_example.Circle .up.|> pattern_examples.composite_pattern_example.Shape
+  pattern_examples.composite_pattern_example.Composite .up.|> pattern_examples.composite_pattern_example.Shape
+  pattern_examples.composite_pattern_example.Square .up.|> pattern_examples.composite_pattern_example.Shape
+  pattern_examples.composite_pattern_example.Triangle .up.|> pattern_examples.composite_pattern_example.Shape
   pattern_examples.decorator_pattern_example.Decorator .up.|> pattern_examples.decorator_pattern_example.PrinterInterface
   pattern_examples.decorator_pattern_example.Decorator o-- pattern_examples.decorator_pattern_example.PrinterInterface : component
   pattern_examples.decorator_pattern_example.LeftBracketDecorator -up-|> pattern_examples.decorator_pattern_example.Decorator
