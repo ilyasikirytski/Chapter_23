@@ -4,8 +4,9 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class County implements Territory{
-    private String name;
-    private List<Territory> cities = new ArrayList<>();
+
+    private final String name;
+    private final List<Territory> cities = new ArrayList<>();
 
     public County(String name, City city) {
         this.name = name;

@@ -1,6 +1,7 @@
 package tasks.task_B_1;
 
 public class City implements Territory{
+
     private final String name;
     private final int countOfPeople;
 

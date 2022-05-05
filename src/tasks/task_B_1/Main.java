@@ -8,6 +8,7 @@ package tasks.task_B_1;
 //try to initialize composite pattern
 public class Main {
     public static void main(String[] args) {
+
         Composite composite = new Composite();
         composite.addCountry(new Country("Беларусь", new County("Гродненская", new City("Гродно", 2800000))));
         composite.addCountry(new Country("Беларусь", new County("Минская", new City("Минск", 9000000))));

@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Composite {
+
     private final List<Territory> countries = new ArrayList<>();
 
     public void addCountry(Territory country){
