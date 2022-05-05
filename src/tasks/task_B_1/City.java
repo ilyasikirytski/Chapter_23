@@ -1,4 +1,4 @@
-package tasks.task_4;
+package tasks.task_B_1;
 
 public class City implements Territory{
     private final String name;

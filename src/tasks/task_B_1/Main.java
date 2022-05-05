@@ -1,4 +1,4 @@
-package tasks.task_4;
+package tasks.task_B_1;
 
 /*
 Паттерн Composite. Разработать структуру данных
