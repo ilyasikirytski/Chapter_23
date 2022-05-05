@@ -285,7 +285,13 @@ title __CHAPTER_23's Class Diagram__\n
   
 
   namespace tasks.task_1 {
-    abstract class tasks.task_1.Transport {
+    class tasks.task_1.Transport {
+    }
+  }
+  
+
+  namespace tasks.task_2 {
+    class tasks.task_2.Car {
     }
   }
   
@@ -297,7 +303,37 @@ title __CHAPTER_23's Class Diagram__\n
   
 
   namespace tasks.task_2 {
-    abstract class tasks.task_2.PassengerCarrier {
+    class tasks.task_2.PassengerCarrier {
+    }
+  }
+  
+
+  namespace tasks.task_2 {
+    class tasks.task_2.Plane {
+    }
+  }
+  
+
+  namespace tasks.task_2 {
+    class tasks.task_2.Train {
+    }
+  }
+  
+
+  namespace tasks.task_2 {
+    class tasks.task_2.Trip {
+    }
+  }
+  
+
+  namespace tasks.task_2 {
+    interface tasks.task_2.Tripable {
+    }
+  }
+  
+
+  namespace tasks.task_2 {
+    enum Trips {
     }
   }
   
@@ -335,6 +371,10 @@ title __CHAPTER_23's Class Diagram__\n
   tasks.task_1.Bicycle -up-|> tasks.task_1.Transport
   tasks.task_1.Car -up-|> tasks.task_1.Transport
   tasks.task_1.Carriage -up-|> tasks.task_1.Transport
+  tasks.task_2.Car .up.|> tasks.task_2.Tripable
+  tasks.task_2.PassengerCarrier o-- tasks.task_2.Trip : trip
+  tasks.task_2.Plane .up.|> tasks.task_2.Tripable
+  tasks.task_2.Train .up.|> tasks.task_2.Tripable
 
 
 right footer
