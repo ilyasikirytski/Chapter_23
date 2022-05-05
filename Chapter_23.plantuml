@@ -296,6 +296,12 @@ title __CHAPTER_23's Class Diagram__\n
   }
   
 
+  namespace tasks.task_2 {
+    abstract class tasks.task_2.PassengerCarrier {
+    }
+  }
+  
+
   pattern_examples.adapter_pattern_example.VectorAdapterFromRaster .up.|> pattern_examples.adapter_pattern_example.VectroGraphicsInterface
   pattern_examples.adapter_pattern_example.VectorAdapterFromRaster -up-|> pattern_examples.adapter_pattern_example.RasterGraphics
   pattern_examples.adapter_pattern_example.VectorAdapterFromRaster2 .up.|> pattern_examples.adapter_pattern_example.VectroGraphicsInterface

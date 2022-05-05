@@ -6,7 +6,6 @@ title __TASK_1's Class Diagram__\n
     class tasks.task_1.Bicycle {
         + Bicycle()
         + getCostOfShipping()
-        + getTimeOfShipping()
     }
   }
   
@@ -15,7 +14,6 @@ title __TASK_1's Class Diagram__\n
     class tasks.task_1.Car {
         + Car()
         + getCostOfShipping()
-        + getTimeOfShipping()
     }
   }
   
@@ -24,7 +22,6 @@ title __TASK_1's Class Diagram__\n
     class tasks.task_1.Carriage {
         + Carriage()
         + getCostOfShipping()
-        + getTimeOfShipping()
     }
   }
   
@@ -50,12 +47,13 @@ title __TASK_1's Class Diagram__\n
         - costPerKilometerForCargo : int
         - costPerKilometerForPassenger : int
         - maxSpeed : int
+        - transportType : String
         + Transport()
-        {abstract} + getCostOfShipping()
+        + getCostOfShipping()
         + getCostPerKilometerForCargo()
         + getCostPerKilometerForPassenger()
         + getMaxSpeed()
-        {abstract} + getTimeOfShipping()
+        + getTimeOfShipping()
     }
   }
   
