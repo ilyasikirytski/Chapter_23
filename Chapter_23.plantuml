@@ -254,6 +254,48 @@ title __CHAPTER_23's Class Diagram__\n
   }
   
 
+  namespace tasks.task_1 {
+    class tasks.task_1.Bicycle {
+    }
+  }
+  
+
+  namespace tasks.task_1 {
+    class tasks.task_1.Car {
+    }
+  }
+  
+
+  namespace tasks.task_1 {
+    class tasks.task_1.Carriage {
+    }
+  }
+  
+
+  namespace tasks.task_1 {
+    class tasks.task_1.Facade {
+    }
+  }
+  
+
+  namespace tasks.task_1 {
+    class tasks.task_1.Main {
+    }
+  }
+  
+
+  namespace tasks.task_1 {
+    abstract class tasks.task_1.Transport {
+    }
+  }
+  
+
+  namespace tasks.task_2 {
+    class tasks.task_2.Main {
+    }
+  }
+  
+
   pattern_examples.adapter_pattern_example.VectorAdapterFromRaster .up.|> pattern_examples.adapter_pattern_example.VectroGraphicsInterface
   pattern_examples.adapter_pattern_example.VectorAdapterFromRaster -up-|> pattern_examples.adapter_pattern_example.RasterGraphics
   pattern_examples.adapter_pattern_example.VectorAdapterFromRaster2 .up.|> pattern_examples.adapter_pattern_example.VectroGraphicsInterface
@@ -284,6 +326,9 @@ title __CHAPTER_23's Class Diagram__\n
   pattern_examples.proxy_pattern_example.ProxyImage .up.|> pattern_examples.proxy_pattern_example.Image
   pattern_examples.proxy_pattern_example.ProxyImage o-- pattern_examples.proxy_pattern_example.Image : image
   pattern_examples.proxy_pattern_example.RealImage .up.|> pattern_examples.proxy_pattern_example.Image
+  tasks.task_1.Bicycle -up-|> tasks.task_1.Transport
+  tasks.task_1.Car -up-|> tasks.task_1.Transport
+  tasks.task_1.Carriage -up-|> tasks.task_1.Transport
 
 
 right footer
