@@ -43,7 +43,7 @@ title __TASK_1's Class Diagram__\n
   
 
   namespace tasks.task_1 {
-    abstract class tasks.task_1.Transport {
+    class tasks.task_1.Transport {
         - costPerKilometerForCargo : int
         - costPerKilometerForPassenger : int
         - maxSpeed : int
