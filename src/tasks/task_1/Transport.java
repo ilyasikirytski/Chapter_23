@@ -1,6 +1,6 @@
 package tasks.task_1;
 
-abstract class Transport {
+public class Transport {
     private final String transportType;
     private final int maxSpeed;
     private final int costPerKilometerForPassenger;
