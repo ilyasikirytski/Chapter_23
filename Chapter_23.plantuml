@@ -194,6 +194,42 @@ title __CHAPTER_23's Class Diagram__\n
   }
   
 
+  namespace pattern_examples.flyweight_pattern_example {
+    class pattern_examples.flyweight_pattern_example.CircleShape {
+    }
+  }
+  
+
+  namespace pattern_examples.flyweight_pattern_example {
+    class pattern_examples.flyweight_pattern_example.Main {
+    }
+  }
+  
+
+  namespace pattern_examples.flyweight_pattern_example {
+    class pattern_examples.flyweight_pattern_example.PointShape {
+    }
+  }
+  
+
+  namespace pattern_examples.flyweight_pattern_example {
+    interface pattern_examples.flyweight_pattern_example.Shape {
+    }
+  }
+  
+
+  namespace pattern_examples.flyweight_pattern_example {
+    class pattern_examples.flyweight_pattern_example.ShapeFactory {
+    }
+  }
+  
+
+  namespace pattern_examples.flyweight_pattern_example {
+    class pattern_examples.flyweight_pattern_example.SquareShape {
+    }
+  }
+  
+
   pattern_examples.adapter_pattern_example.VectorAdapterFromRaster .up.|> pattern_examples.adapter_pattern_example.VectroGraphicsInterface
   pattern_examples.adapter_pattern_example.VectorAdapterFromRaster -up-|> pattern_examples.adapter_pattern_example.RasterGraphics
   pattern_examples.adapter_pattern_example.VectorAdapterFromRaster2 .up.|> pattern_examples.adapter_pattern_example.VectroGraphicsInterface
@@ -218,6 +254,9 @@ title __CHAPTER_23's Class Diagram__\n
   pattern_examples.facade_pattern_example.Computer o-- pattern_examples.facade_pattern_example.DVDRom : dvdRom
   pattern_examples.facade_pattern_example.Computer o-- pattern_examples.facade_pattern_example.HDD : hdd
   pattern_examples.facade_pattern_example.Computer o-- pattern_examples.facade_pattern_example.Power : power
+  pattern_examples.flyweight_pattern_example.CircleShape .up.|> pattern_examples.flyweight_pattern_example.Shape
+  pattern_examples.flyweight_pattern_example.PointShape .up.|> pattern_examples.flyweight_pattern_example.Shape
+  pattern_examples.flyweight_pattern_example.SquareShape .up.|> pattern_examples.flyweight_pattern_example.Shape
 
 
 right footer
