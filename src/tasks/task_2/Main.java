@@ -4,6 +4,7 @@ package tasks.task_2;
 Создать суперкласс Пассажироперевозчик и подклассы Самолет, Поезд,
 Автомобиль. Задать правила выбора транспорта в зависимости от расстояния и наличия путей сообщения
  */
+//try to initialize command pattern
 public class Main {
     public static void main(String[] args) {
         PassengerCarrier passengerCarrier = new PassengerCarrier();
