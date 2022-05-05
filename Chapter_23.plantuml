@@ -380,6 +380,42 @@ title __CHAPTER_23's Class Diagram__\n
   }
   
 
+  namespace tasks.task_4 {
+    class tasks.task_4.City {
+    }
+  }
+  
+
+  namespace tasks.task_4 {
+    class tasks.task_4.Composite {
+    }
+  }
+  
+
+  namespace tasks.task_4 {
+    class tasks.task_4.Country {
+    }
+  }
+  
+
+  namespace tasks.task_4 {
+    class tasks.task_4.County {
+    }
+  }
+  
+
+  namespace tasks.task_4 {
+    class tasks.task_4.Main {
+    }
+  }
+  
+
+  namespace tasks.task_4 {
+    interface tasks.task_4.Territory {
+    }
+  }
+  
+
   pattern_examples.adapter_pattern_example.VectorAdapterFromRaster .up.|> pattern_examples.adapter_pattern_example.VectroGraphicsInterface
   pattern_examples.adapter_pattern_example.VectorAdapterFromRaster -up-|> pattern_examples.adapter_pattern_example.RasterGraphics
   pattern_examples.adapter_pattern_example.VectorAdapterFromRaster2 .up.|> pattern_examples.adapter_pattern_example.VectroGraphicsInterface
@@ -422,6 +458,9 @@ title __CHAPTER_23's Class Diagram__\n
   tasks.task_3.SimpleStudy .up.|> tasks.task_3.Study
   tasks.task_3.Student o-- tasks.task_3.Study : study
   tasks.task_3.UniversityStudent -up-|> tasks.task_3.Student
+  tasks.task_4.City .up.|> tasks.task_4.Territory
+  tasks.task_4.Country .up.|> tasks.task_4.Territory
+  tasks.task_4.County .up.|> tasks.task_4.Territory
 
 
 right footer
