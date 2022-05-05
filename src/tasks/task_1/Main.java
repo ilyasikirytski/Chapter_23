@@ -8,6 +8,7 @@ package tasks.task_1;
 1. Создать суперкласс Транспортное средство и подклассы Автомобиль, Велосипед, Повозка.
 Подсчитать время и стоимость перевозки пассажиров и грузов каждым транспортным средством.
  */
+//try to initialize facade pattern
 public class Main {
     public static void main(String[] args) {
         Facade facade = new Facade(
