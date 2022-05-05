@@ -1,6 +1,7 @@
 package tasks.task_2;
 
 public class Trip {
+
     private final String trip;
     private int distance;
     private int countOfAvailableRoutes;

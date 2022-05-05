@@ -1,6 +1,7 @@
 package tasks.task_2;
 
 public class PassengerCarrier{
+
     private Trip trip;
 
     public void setTrip(Trip trip) {
