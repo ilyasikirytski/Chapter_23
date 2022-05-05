@@ -4,6 +4,7 @@ package tasks.task_3;
 Создать суперкласс Учащийся и подклассы Школьник и Студент.
 Определить способы обучения и (возможности его продолжения????).
  */
+//try to initialize strategy pattern
 public class Main {
     public static void main(String[] args) {
         Student student = new Schoolboy("schoolboy");
