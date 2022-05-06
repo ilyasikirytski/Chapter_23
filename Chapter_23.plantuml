@@ -464,6 +464,42 @@ title __CHAPTER_23's Class Diagram__\n
   }
   
 
+  namespace tasks.task_B_5 {
+    interface tasks.task_B_5.Bactery {
+    }
+  }
+  
+
+  namespace tasks.task_B_5 {
+    class tasks.task_B_5.Bactery1 {
+    }
+  }
+  
+
+  namespace tasks.task_B_5 {
+    class tasks.task_B_5.Bactery2 {
+    }
+  }
+  
+
+  namespace tasks.task_B_5 {
+    class tasks.task_B_5.Bactery3 {
+    }
+  }
+  
+
+  namespace tasks.task_B_5 {
+    class tasks.task_B_5.BacteryFactory {
+    }
+  }
+  
+
+  namespace tasks.task_B_5 {
+    class tasks.task_B_5.Main {
+    }
+  }
+  
+
   pattern_examples.adapter_pattern_example.VectorAdapterFromRaster .up.|> pattern_examples.adapter_pattern_example.VectroGraphicsInterface
   pattern_examples.adapter_pattern_example.VectorAdapterFromRaster -up-|> pattern_examples.adapter_pattern_example.RasterGraphics
   pattern_examples.adapter_pattern_example.VectorAdapterFromRaster2 .up.|> pattern_examples.adapter_pattern_example.VectroGraphicsInterface
@@ -514,6 +550,9 @@ title __CHAPTER_23's Class Diagram__\n
   tasks.task_B_2.Sentence .up.|> tasks.task_B_2.Texted
   tasks.task_B_2.Text .up.|> tasks.task_B_2.Texted
   tasks.task_B_2.Word .up.|> tasks.task_B_2.Texted
+  tasks.task_B_5.Bactery1 .up.|> tasks.task_B_5.Bactery
+  tasks.task_B_5.Bactery2 .up.|> tasks.task_B_5.Bactery
+  tasks.task_B_5.Bactery3 .up.|> tasks.task_B_5.Bactery
 
 
 right footer
