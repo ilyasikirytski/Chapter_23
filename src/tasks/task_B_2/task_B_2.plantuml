@@ -16,6 +16,7 @@ title __TASK_B_2's Class Diagram__\n
         - header : String
         - words : List<Texted>
         + Header()
+        + Header()
         + showText()
     }
   }
@@ -33,6 +34,7 @@ title __TASK_B_2's Class Diagram__\n
         - paragraph : String
         - sentences : List<Texted>
         + Pargraph()
+        + Pargraph()
         + showText()
     }
   }
@@ -43,6 +45,7 @@ title __TASK_B_2's Class Diagram__\n
         - headers : List<Texted>
         - sentence : String
         + Sentence()
+        + Sentence()
         + showText()
     }
   }
@@ -52,6 +55,7 @@ title __TASK_B_2's Class Diagram__\n
     class tasks.task_B_2.Text {
         - pargraphs : List<Texted>
         - text : String
+        + Text()
         + Text()
         + showText()
     }
