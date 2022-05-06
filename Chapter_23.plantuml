@@ -380,38 +380,86 @@ title __CHAPTER_23's Class Diagram__\n
   }
   
 
-  namespace tasks.task_4 {
-    class tasks.task_4.City {
+  namespace tasks.task_B_1 {
+    class tasks.task_B_1.City {
     }
   }
   
 
-  namespace tasks.task_4 {
-    class tasks.task_4.Composite {
+  namespace tasks.task_B_1 {
+    class tasks.task_B_1.Composite {
     }
   }
   
 
-  namespace tasks.task_4 {
-    class tasks.task_4.Country {
+  namespace tasks.task_B_1 {
+    class tasks.task_B_1.Country {
     }
   }
   
 
-  namespace tasks.task_4 {
-    class tasks.task_4.County {
+  namespace tasks.task_B_1 {
+    class tasks.task_B_1.County {
     }
   }
   
 
-  namespace tasks.task_4 {
-    class tasks.task_4.Main {
+  namespace tasks.task_B_1 {
+    class tasks.task_B_1.Main {
     }
   }
   
 
-  namespace tasks.task_4 {
-    interface tasks.task_4.Territory {
+  namespace tasks.task_B_1 {
+    interface tasks.task_B_1.Territory {
+    }
+  }
+  
+
+  namespace tasks.task_B_2 {
+    class tasks.task_B_2.Composite {
+    }
+  }
+  
+
+  namespace tasks.task_B_2 {
+    class tasks.task_B_2.Header {
+    }
+  }
+  
+
+  namespace tasks.task_B_2 {
+    class tasks.task_B_2.Main {
+    }
+  }
+  
+
+  namespace tasks.task_B_2 {
+    class tasks.task_B_2.Pargraph {
+    }
+  }
+  
+
+  namespace tasks.task_B_2 {
+    class tasks.task_B_2.Sentence {
+    }
+  }
+  
+
+  namespace tasks.task_B_2 {
+    class tasks.task_B_2.Text {
+    }
+  }
+  
+
+  namespace tasks.task_B_2 {
+    interface tasks.task_B_2.Texted {
+    }
+  }
+  
+
+  namespace tasks.task_B_2 {
+    class tasks.task_B_2.Word {
     }
   }
   
@@ -458,9 +506,14 @@ title __CHAPTER_23's Class Diagram__\n
   tasks.task_3.SimpleStudy .up.|> tasks.task_3.Study
   tasks.task_3.Student o-- tasks.task_3.Study : study
   tasks.task_3.UniversityStudent -up-|> tasks.task_3.Student
-  tasks.task_4.City .up.|> tasks.task_4.Territory
-  tasks.task_4.Country .up.|> tasks.task_4.Territory
-  tasks.task_4.County .up.|> tasks.task_4.Territory
+  tasks.task_B_1.City .up.|> tasks.task_B_1.Territory
+  tasks.task_B_1.Country .up.|> tasks.task_B_1.Territory
+  tasks.task_B_1.County .up.|> tasks.task_B_1.Territory
+  tasks.task_B_2.Header .up.|> tasks.task_B_2.Texted
+  tasks.task_B_2.Pargraph .up.|> tasks.task_B_2.Texted
+  tasks.task_B_2.Sentence .up.|> tasks.task_B_2.Texted
+  tasks.task_B_2.Text .up.|> tasks.task_B_2.Texted
+  tasks.task_B_2.Word .up.|> tasks.task_B_2.Texted
 
 
 right footer
