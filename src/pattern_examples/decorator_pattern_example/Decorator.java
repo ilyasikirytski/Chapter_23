@@ -7,6 +7,7 @@ abstract class Decorator implements PrinterInterface {
         this.component = component;
     }
 
+    @Override
     public void print(){
         component.print();
     }
